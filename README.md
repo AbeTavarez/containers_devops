@@ -7,3 +7,12 @@ Build the image:
 
 Then run the container:
 `docker run -p 3000:80 <Container ID>`
+
+To list running container:
+`docker ps`
+
+To list all containers:
+`docker ps -a`
+
+To stop a running container:
+`docker stop <Container ID>`
