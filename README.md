@@ -2,6 +2,8 @@
 
 ## Build & Run
 
+Build the image:
 `docker build .` at the main dir.
-then
+
+Then run the container:
 `docker run -p 3000:80 <Container ID>`
